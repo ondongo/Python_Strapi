@@ -13,3 +13,7 @@
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/venv
+
+.venv
