@@ -36,7 +36,7 @@ def post_food():
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json"
     }
-    #=============Data De Mariama selon la structure de la collection
+
     payload = {
       "data": {
       "title": title
