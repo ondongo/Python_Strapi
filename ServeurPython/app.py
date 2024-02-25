@@ -5,7 +5,7 @@ app = Flask(__name__, template_folder='templates')
 
 # A mettre dans le fichier env
 strapi_api_url = "http://localhost:1337"
-token="31b03d6e08aa2f896fc11c099cde7ed28d3f69c2c6743d03ac878c461fe6d2c312530ea47384a34ba21f8f735c3d62229ac8e458da217e9fd79d1744c21b41c41 1ce12b298f059fb808cc39d39de62f392cfc847402d78b5f0c679921e3b0f26eb8ced064755ea7c64af184751d030913e18df3b03e6549692e213da6ece7dcd"
+token="your token"
 
 @app.route('/')
 def index():
